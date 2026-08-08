@@ -3,9 +3,12 @@ Machine Learning
 ML tells a computer to learn from data recognise patterns and make its own decision without any explicit instructions from humans. 
 
 Types:
-—> Supervised learning: A model is trained on labeled data (Input/Output parameters given)
-—> Unsupervised learning
+—> Supervised learning: A model is trained on labeled data (Input/Output parameters given).
+
+—> Unsupervised learning.
+
 —> Semi-supervised learning *(SSL models train on labeled data)
+<<<<<<< HEAD
 —> RLHF (reinforced learning from human feedback)
 
 Machine Learning Pipeline:
@@ -21,3 +24,7 @@ flowchart TD
     G --> H[Deployment]
 ```
 
+=======
+
+—> RLHF (reinforced learning from human feedback)
+>>>>>>> 6b67a04de84e720a409ff2e6a1a990b1cad9313d

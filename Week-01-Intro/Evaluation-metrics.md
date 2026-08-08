@@ -76,4 +76,7 @@ Evaluation metrics are important because they measure how well the model works, 
                         pass    fail
  it is a NXN matrix where N is the no of classes/categories to be predicted if we have N = 2 we get 2*2 matrix 
 
- 
+ TP-True positive-- you predict pass  and it is a pass 
+ TN -True Negative -- you predict Fail and it is a Fail
+ FP- False Positive --you predict Pass & it is Fail
+ FN -False Negative --you predict Fail & it is a  Pass 
