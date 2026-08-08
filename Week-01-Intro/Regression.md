@@ -2,6 +2,7 @@ flowchart TD
     A[Supervised Learning] --> B[Regression]
     A --> C[Classification]
     B --> D["The supervised ML type which learns the relationship between input independent variables or 'features' and output dependent variables or 'target' and makes a prediction.<br><br>Eg: House price prediction, Product sales prediction"]
+    C --> E["It predicts categorical values, "]
 
 #Linear Regression Algorithim: 
 It predicts continous values by fitting a straight line that best represents real world cases of linear regression. 
@@ -20,3 +21,7 @@ The goal is to minimum difference between the predicted and real data.
 2. Computationaly efficient
 3. Good for initial model
 4. Widely available ML libraries 
+
+#Regression metrics: 
+Evaluation metrics are important because they measure how well the model works, they ensure the model meets its objectives.
+#MAE: Mean Absolute Error

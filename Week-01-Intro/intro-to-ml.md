@@ -7,3 +7,17 @@ Types:
 —> Unsupervised learning
 —> Semi-supervised learning *(SSL models train on labeled data)
 —> RLHF (reinforced learning from human feedback)
+
+Machine Learning Pipeline:
+
+``` mermaid
+flowchart TD
+    A[Model Pipeline] --> B[Data Creation]
+    B --> C["Splitting Features / Targets"]
+    C --> D["Splitting Train / Test"]
+    D --> E[Model Creation]
+    E --> F[Model Training]
+    F --> G[Model Evaluation]
+    G --> H[Deployment]
+```
+
