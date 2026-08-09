@@ -8,8 +8,9 @@ Types:
 —> Unsupervised learning.
 
 —> Semi-supervised learning *(SSL models train on labeled data)
-<<<<<<< HEAD
+
 —> RLHF (reinforced learning from human feedback)
+
 
 Machine Learning Pipeline:
 
@@ -23,8 +24,3 @@ flowchart TD
     F --> G[Model Evaluation]
     G --> H[Deployment]
 ```
-
-=======
-
-—> RLHF (reinforced learning from human feedback)
->>>>>>> 6b67a04de84e720a409ff2e6a1a990b1cad9313d
