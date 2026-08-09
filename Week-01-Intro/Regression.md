@@ -3,7 +3,7 @@ flowchart TD
     A[Supervised Learning] --> B[Regression]
     A --> C[Classification]
     B --> D["The supervised ML type which learns the relationship between input independent variables or 'features' and output dependent variables or 'target' and makes a prediction.<br><br>Eg: House price prediction, Product sales prediction"]
-
+```
 #Linear Regression algorithm: 
 It predicts continuous values by fitting a straight line that best represents real world cases of linear regression. 
 Eg: Stock Market Prediction, Real Estate Price Prediction, Medical Risk Prediction, Sales Forecasting.
