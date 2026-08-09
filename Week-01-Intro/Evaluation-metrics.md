@@ -11,7 +11,9 @@ Evaluation metrics are important because they measure how well the model works, 
 
  2. Mean Squared Error(MSE): calcuates the average of squared differences between predicted and actual values, squaring the difference ensure larger errors are penalised making it sesnitive to outliers
 
- \(\text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2\)
+ $$
+ MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+ $$
 
  3. Roor Mean Squared Error(RMSE): Square root of MSE
 
@@ -26,13 +28,14 @@ Evaluation metrics are important because they measure how well the model works, 
  -->R2 value close to 1 shows a model that explain most of the varuance R2 value close to 0 shows the model does not explain much of the variance in data.
  --> R2 score is used to access the goodness of fit of the regression models 
 
- \(R^{2}=1-\frac{SS_{res}}{SS_{tot}}=1-\frac{\sum (y_{i}-\^{y}_{i})^{2}}{\sum (y_{i}-\={y})^{2}}\)
+ $$
+ R^{2} = 1 - \frac{SS_{res}}{SS_{tot}} = 1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}
+ $$
 
  yi= actual values
  ^yi = predicted values 
  y- = mean of the actual values
 
- 
 #CLASSIFICATION METRICS:
  1. Accuracy: proportion of correct predictions made by a model out of all predictions.
 
@@ -69,11 +72,15 @@ Evaluation metrics are important because they measure how well the model works, 
  upto 0.5 - random guessing 
  less than 0.5 - Worse than random guessing
 
- 6. confusion matrix:     actual
+ 6. confusion matrix:   
+
+                          actual
                     pass [TP]|[FP]
         predicted           
                     Fail [FN]|[TN]
                         pass    fail
+
+
  it is a NXN matrix where N is the no of classes/categories to be predicted if we have N = 2 we get 2*2 matrix 
 
  TP-True positive-- you predict pass  and it is a pass 
